@@ -1,0 +1,160 @@
+*,
+h1 {
+  color: #fff;
+}
+#unblock,
+h1 {
+  font-family: monospace;
+}
+#unblock,
+* {
+  text-decoration: none;
+}
+#unblock,
+#unblock:hover,
+body {
+  background: #000;
+}
+* {
+  outline: 0;
+  font-family: monospace;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: normal;
+}
+a {
+  color: inherit;
+}
+html {
+  padding: 13px;
+  margin: 0;
+  border: 0;
+}
+body {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  text-align: center;
+  border-radius: 10px;
+  border: #fff 1px solid;
+  box-shadow: #fff 0 0 15px;
+  padding: 5px;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 55px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+::-moz-selection {
+  color: #000;
+  background: #fff;
+}
+::selection {
+  color: #000;
+  background: #fff;
+}
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+#website {
+  background: #00000033;
+  transition: background 0.44s;
+  border: 1.5px solid #ffffff33;
+  font-size: 14.5px;
+  margin-bottom: 15px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  display: none;
+}
+.devinfo {
+  text-align: left;
+}
+.devinfo a {
+  margin: 0;
+  display: inline;
+}
+
+body#ON > #website {
+  visibility: hidden !important;
+}
+#icon {
+  width: 26px;
+  height: auto;
+  display: inline;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#unblock {
+  cursor: pointer;
+  border: 1.5px solid #ffffff33;
+  height: 50px;
+  line-height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-bottom: 38px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  position: relative;
+  text-align: left;
+  padding-left: 18px;
+  padding-right: 0;
+}
+b {
+  font-weight: 500 !important;
+}
+#cant {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+#ON > #cant {
+  display: none !important;
+}
+#unblock:hover {
+  border: 1.5px solid #fff;
+}
+.noclick {
+  pointer-events: none !important;
+}
+body#ON > #unblock {
+  padding: 0 12px;
+  text-align: center;
+}
+#website:hover {
+  background: #000000bb;
+  border-color: #fff;
+}

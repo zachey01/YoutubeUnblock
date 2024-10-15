@@ -1,0 +1,43 @@
+{
+  "name": {
+    "description": "Extension's name",
+    "message": "YouTube без преград"
+  },
+  "description": {
+    "description": "Extension's description",
+    "message": "Разблокируйте YouTube и наслаждайтесь неограниченным доступом бесплатно, используя YouTube без преград!"
+  },
+  "heading": {
+    "description": "Extension's H1 heading 🚀",
+    "message": "YouTube без преград 🚀"
+  },
+  "dev": {
+    "description": "🎨 Created by Zachey",
+    "message": "🎨 Создано Zachey"
+  },
+  "support": {
+    "description": "🫶 Support developer",
+    "message": "🫶 Поддержать разработчика"
+  },
+  "cta": {
+    "description": "Extension's main cta",
+    "message": "Разблокировать"
+  },
+  "progress": {
+    "description": "Extension's progress copy",
+    "message": "Разблокировка..."
+  },
+  "revert": {
+    "description": "Extension's revert proxy copy",
+    "message": "Отключить разблокировку"
+  },
+
+  "misc_alert": {
+    "description": "Misc alert message",
+    "message": "Пожалуйста, отключите в вашем браузере все другие расширения, используемые для обхода блокировок, чтобы обеспечить корректную работу."
+  },
+  "misc_alert3": {
+    "description": "Misc alert message 3",
+    "message": "Вероятно, вы не подключены к интернету."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 3,
+  "name": "YouTube без преград",
+  "short_name": "YouTube без преград",
+  "description": "Разблокируйте YouTube и наслаждайтесь неограниченным доступом бесплатно, используя YouTube без преград!",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/zachey01/YoutubeUnblock",
+  "default_locale": "en",
+  "permissions": [
+    "proxy",
+    "storage",
+    "webRequest",
+    "webRequestAuthProvider",
+    "offscreen",
+    "background"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["*"],
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "extension_ids": ["*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/"],
+      "js": ["yt2.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "offline_enabled": true,
+  "author": "YouTube без преград",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube без преград",
+    "default_icon": {
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "64": "images/64.png",
+      "128": "images/128.png"
+    }
+  },
+  "background": {
+    "service_worker": "service.js"
+  },
+  "icons": {
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "64": "images/64.png",
+    "128": "images/128.png"
+  }
+}
